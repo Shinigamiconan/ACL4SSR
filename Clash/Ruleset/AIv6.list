@@ -1,6 +1,6 @@
 # 内容：AI平台-国外（合并去重）
 # 来源：AI.list + OverseasAI.list
-# 数量：193条
+# 数量：182条
 # 说明：按“品牌 / 最终使用路径”划分，非按单条域名自身 AAAA 归类
 # 说明：宽泛关键词若相关核心域名存在 AAAA，则归入 v6；否则归入 v4
 
@@ -105,6 +105,8 @@ DOMAIN,r.bing.com
 DOMAIN,self.events.data.microsoft.com
 
 # Anthropic / Web / Console
+DOMAIN,anthropic.com
+DOMAIN,www.anthropic.com
 DOMAIN,servd-anthropic-website.b-cdn.net
 
 # Anthropic / API
@@ -132,51 +134,40 @@ DOMAIN,static.cloudflareinsights.com
 DOMAIN,sydney.bing.com
 DOMAIN,www.bing.com
 
-# 其他海外 AI / 通用依赖
-DOMAIN-SUFFIX,ai.azure.com
-DOMAIN-SUFFIX,ai.com
-
 # AI21 Labs
 DOMAIN-SUFFIX,ai21.com
 DOMAIN-SUFFIX,ai21labs.com
 
 # Google Gemini / API
-DOMAIN-SUFFIX,aiplatform.googleapis.com
+DOMAIN,aiplatform.googleapis.com
 
 # 其他海外 AI / 通用依赖
 DOMAIN-SUFFIX,algolia.net
 DOMAIN-SUFFIX,anfutong.cn
 DOMAIN-SUFFIX,anfutong.com
-DOMAIN-SUFFIX,anfutong.com.cn
-
-# Anthropic / Web / Console
-DOMAIN-SUFFIX,anthropic.com
+DOMAIN,anfutong.com.cn
 
 # Meta AI
-DOMAIN-SUFFIX,ai.meta.com
+DOMAIN,ai.meta.com
 
 # Microsoft Copilot / Web / Bing
-DOMAIN-SUFFIX,api.microsoftapp.net
+DOMAIN,api.microsoftapp.net
 
 # 其他海外 AI / 通用依赖
-DOMAIN-SUFFIX,api.nvidia.com
-DOMAIN-SUFFIX,apis.google.com
+DOMAIN,apis.google.com
 DOMAIN-SUFFIX,artbreeder.com
 
 # 身份认证 / 信任服务
 DOMAIN-SUFFIX,auth0.com
 
-# Google Gemini / Web / Studio
-DOMAIN-SUFFIX,bard.google.com
-
 # 其他海外 AI / 通用依赖
 DOMAIN-SUFFIX,beibao.cn
 DOMAIN-SUFFIX,beibao.com
-DOMAIN-SUFFIX,beibao.com.cn
+DOMAIN,beibao.com.cn
 DOMAIN-SUFFIX,bill-safe.com
 
 # Microsoft Copilot / Web / Bing
-DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
+DOMAIN,bing-shopping.microsoft-falcon.io
 
 # 其他海外 AI / 通用依赖
 DOMAIN-SUFFIX,bml.info
@@ -189,21 +180,21 @@ DOMAIN-SUFFIX,briantreepayments.net
 DOMAIN-SUFFIX,briantreepayments.tv
 
 # Google Gemini / Web / Studio
-DOMAIN-SUFFIX,business.gemini.google
+DOMAIN,business.gemini.google
 
 # 其他海外 AI / 通用依赖
 DOMAIN-SUFFIX,buyfast-paysmart.net
 DOMAIN-SUFFIX,cash2.com
 
 # Cloudflare AI / Challenge / CDN
-DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN,challenges.cloudflare.com
 
 # Character.AI
 DOMAIN-SUFFIX,character.ai
 
 # OpenAI / Web / OAuth
 DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN,chatgpt.livekit.cloud
 
 # Civitai
 DOMAIN-SUFFIX,civitai.com
@@ -214,14 +205,11 @@ DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,claudeusercontent.com
 
 # OpenAI / Web / OAuth
-DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN,client-api.arkoselabs.com
 
 # 其他海外 AI / 通用依赖
 DOMAIN-SUFFIX,clipdrop.co
-DOMAIN-SUFFIX,copilot.cloud.microsoft
-
-# Microsoft Copilot / Web / Bing
-DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN,copilot.cloud.microsoft
 
 # Copy.ai
 DOMAIN-SUFFIX,copy.ai
@@ -233,7 +221,7 @@ DOMAIN-SUFFIX,deepmind.com
 DOMAIN-SUFFIX,deepmind.google
 
 # Microsoft Copilot / Web / Bing
-DOMAIN-SUFFIX,edgeservices.bing.com
+DOMAIN,edgeservices.bing.com
 
 # 其他海外 AI / 通用依赖
 DOMAIN-SUFFIX,fal.ai
@@ -247,7 +235,6 @@ DOMAIN-SUFFIX,fireworks.ai
 
 # Google Gemini / Web / Studio
 DOMAIN-SUFFIX,gemini.google
-DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,generativeai.google
 
 # HeyGen
@@ -255,7 +242,6 @@ DOMAIN-SUFFIX,heygen.com
 
 # 其他海外 AI / 通用依赖
 DOMAIN-SUFFIX,gmoney.org
-DOMAIN-SUFFIX,google.com
 
 # xAI / Grok
 DOMAIN-SUFFIX,grok.com
@@ -265,7 +251,7 @@ DOMAIN-SUFFIX,hf.co
 DOMAIN-SUFFIX,hf.space
 
 # 其他海外 AI / 通用依赖
-DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN,host.livekit.cloud
 
 # Hugging Face
 DOMAIN-SUFFIX,huggingface.co
@@ -295,9 +281,6 @@ DOMAIN-SUFFIX,llamaindex.ai
 # 其他海外 AI / 通用依赖
 DOMAIN-SUFFIX,loanbuilder.com
 
-# Google Gemini / Web / Studio
-DOMAIN-SUFFIX,makersuite.google.com
-
 # AI 会议 / 记录
 DOMAIN-SUFFIX,meetgeek.ai
 
@@ -323,14 +306,13 @@ DOMAIN-SUFFIX,oaiusercontent.com
 
 # 其他海外 AI / 通用依赖
 DOMAIN-SUFFIX,observeit.net
-DOMAIN-SUFFIX,openai.azure.com
+DOMAIN,openai.azure.com
 
 # OpenAI / Web / OAuth
-DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,openai.fm
 
 # 其他海外 AI / 通用依赖
-DOMAIN-SUFFIX,openaicom.imgix.net
+DOMAIN,openaicom.imgix.net
 
 # OpenRouter
 DOMAIN-SUFFIX,openrouter.ai
@@ -369,7 +351,7 @@ DOMAIN-SUFFIX,pplx.ai
 
 # 其他海外 AI / 通用依赖
 DOMAIN-SUFFIX,pppds.com
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,pypl.com
 DOMAIN-SUFFIX,pypl.info
 DOMAIN-SUFFIX,pypl.net
@@ -411,7 +393,7 @@ DOMAIN-SUFFIX,tldv.io
 
 # 其他海外 AI / 通用依赖
 DOMAIN-SUFFIX,trychroma.com
-DOMAIN-SUFFIX,turn.livekit.cloud
+DOMAIN,turn.livekit.cloud
 DOMAIN-SUFFIX,wordtune.com
 DOMAIN-SUFFIX,writesonic.com
 
@@ -422,5 +404,3 @@ DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,xn--bnq297cix3a.cn
 DOMAIN-SUFFIX,you.com
 DOMAIN-SUFFIX,zed.dev
-IP-CIDR,24.199.123.28/32,no-resolve
-IP-CIDR,64.23.132.171/32,no-resolve
