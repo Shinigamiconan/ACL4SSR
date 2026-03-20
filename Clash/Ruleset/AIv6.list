@@ -1,565 +1,426 @@
 # 内容：AI平台-国外（合并去重）
 # 来源：AI.list + OverseasAI.list
-# 数量：334条
+# 数量：193条
 # 说明：按“品牌 / 最终使用路径”划分，非按单条域名自身 AAAA 归类
 # 说明：宽泛关键词若相关核心域名存在 AAAA，则归入 v6；否则归入 v4
 
-# AWS Bedrock / Q / Console
-DOMAIN-KEYWORD,bedrock
+# Anthropic / Web / Console
+DOMAIN-KEYWORD,anthropic
+DOMAIN-KEYWORD,claude
 
-# AWS Bedrock / Runtime API
-DOMAIN-KEYWORD,bedrock-runtime
+# Google Gemini / Web / Studio
+DOMAIN-KEYWORD,colab
+DOMAIN-KEYWORD,developerprofiles
+DOMAIN-KEYWORD,generativeai
 
-# OpenAI / API
-DOMAIN-KEYWORD,openaicom-api
+# Google Gemini / API
+DOMAIN-KEYWORD,generativelanguage
 
-# 支付 / 计费 / 风控依赖
-DOMAIN-KEYWORD,paypal
-DOMAIN-KEYWORD,stripe
+# OpenAI / Mixed Keyword
+DOMAIN-KEYWORD,openai
 
-# GitHub Copilot / IDE API
-DOMAIN,api.githubcopilot.com
+# 其他海外 AI / 通用依赖
+DOMAIN,ai.azure.com
 
-# JetBrains Grazie
-DOMAIN,api.jetbrains.ai
+# Google Gemini / Web / Studio
+DOMAIN,ai.google.dev
+DOMAIN,aistudio.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
 
-# AI 相关遥测 / Feature Gate
-DOMAIN,api.statsig.com
+# Cloudflare AI / Challenge / CDN
+DOMAIN,api.cloudflare.com
 
-# Together AI
-DOMAIN,api.together.xyz
+# Groq / API
+DOMAIN,api.groq.com
 
-# JetBrains Grazie
-DOMAIN,auth.grazie.ai
+# Microsoft Copilot / Web / Bing
+DOMAIN,api.msn.com
 
-# AWS Bedrock / Q / Console
-DOMAIN,aws-language-servers.us-east-1.amazonaws.com
-DOMAIN,aws-toolkit-language-servers.amazonaws.com
+# 其他海外 AI / 通用依赖
+DOMAIN,api.ngc.nvidia.com
+DOMAIN,api.nvidia.com
 
-# AI 相关站点支持 / 统计
-DOMAIN,browser-intake-datadoghq.com
-DOMAIN,cdn.usefathom.com
+# Microsoft Copilot / Web / Bing
+DOMAIN,assets.msn.com
 
-# AWS Bedrock / Q / Console
-DOMAIN,codewhisperer.us-east-1.amazonaws.com
+# Google Gemini / Web / Studio
+DOMAIN,bard.google.com
 
-# GitHub Copilot / IDE API
-DOMAIN,copilot-proxy.githubusercontent.com
+# 其他海外 AI / 通用依赖
+DOMAIN,build.nvidia.com
 
-# AWS Bedrock / Q / Console
-DOMAIN,desktop-release.codewhisperer.us-east-1.amazonaws.com
-DOMAIN,idetoolkits-hostedfiles.amazonaws.com
-DOMAIN,idetoolkits.amazonwebservices.com
+# OpenAI / Web / OAuth
+DOMAIN,chat.openai.com.cdn.cloudflare.net
 
-# AI 相关站点支持 / 统计
-DOMAIN,in.appcenter.ms
+# 其他海外 AI / 通用依赖
+DOMAIN,client-telemetry.us-east-1.amazonaws.com
 
-# OpenAI / API
-DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
-DOMAIN,api.openai.com
+# Groq / Console
+DOMAIN,console.groq.com
 
-# AWS Bedrock / Q / Console
-DOMAIN,q.us-east-1.amazonaws.com
+# Microsoft Copilot / Web / Bing
+DOMAIN,copilot.microsoft.com
 
-# Anthropic / Status
-DOMAIN,status.anthropic.com
+# Cloudflare AI / Challenge / CDN
+DOMAIN,gateway.ai.cloudflare.com
 
-# AWS Bedrock / Q / Console
-DOMAIN,specs.q.us-east-1.amazonaws.com
-DOMAIN,telemetry.aws-language-servers.us-east-1.amazonaws.com
+# Microsoft Copilot / Web / Bing
+DOMAIN,gateway.bingviz.microsoft.net
+DOMAIN,gateway.bingviz.microsoftapp.net
 
-# 支付 / 计费 / 风控依赖
-DOMAIN-SUFFIX,account-paypal.info
-DOMAIN-SUFFIX,account-paypal.net
-DOMAIN-SUFFIX,account-paypal.org
-DOMAIN-SUFFIX,accountpaypal.com
-DOMAIN-SUFFIX,accountpaypal.net
-DOMAIN-SUFFIX,accountpaypal.org
+# Google Gemini / Web / Studio
+DOMAIN,gemini.google.com
 
-# AI 编码 / Agent 工具
-DOMAIN-SUFFIX,ampcode.ai
-DOMAIN-SUFFIX,ampcode.com
+# Google Gemini / API
+DOMAIN,generativelanguage.googleapis.com
 
-# Anyscale
-DOMAIN-SUFFIX,anyscale.com
+# 其他海外 AI / 通用依赖
+DOMAIN,integrate.api.nvidia.com
 
-# AI 相关遥测 / Feature Gate
-DOMAIN-SUFFIX,api.statsig.com
+# Microsoft Copilot / Web / Bing
+DOMAIN,location.microsoft.com
 
-# AssemblyAI
-DOMAIN-SUFFIX,assemblyai.com
+# Google Gemini / Web / Studio
+DOMAIN,makersuite.google.com
+DOMAIN,notebooklm.google.com
 
-# Augment
-DOMAIN-SUFFIX,augment.dev
-DOMAIN-SUFFIX,augmentcode.com
+# Microsoft Copilot / Web / Bing
+DOMAIN,odc.officeapps.live.com
 
-# Databricks AI
-DOMAIN-SUFFIX,azuredatabricks.net
+# OpenAI / Web / OAuth
+DOMAIN,openai-api.arkoselabs.com
 
-# Baseten
-DOMAIN-SUFFIX,baseten.co
+# 其他海外 AI / 通用依赖
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
 
-# 支付 / 计费 / 风控依赖
-DOMAIN-SUFFIX,billmelater.com
-DOMAIN-SUFFIX,billmelater.info
-DOMAIN-SUFFIX,billmelater.net
-DOMAIN-SUFFIX,braintreegateway.com
-DOMAIN-SUFFIX,braintreegateway.tv
-DOMAIN-SUFFIX,braintreepayments.com
-DOMAIN-SUFFIX,braintreepayments.info
-DOMAIN-SUFFIX,braintreepayments.org
-DOMAIN-SUFFIX,braintreepayments.tv
-DOMAIN-SUFFIX,braintreepaymentsolutions.com
-DOMAIN-SUFFIX,braintreeps.com
-DOMAIN-SUFFIX,card.io
-DOMAIN-SUFFIX,cashify.com
-DOMAIN-SUFFIX,cashify.net
+# OpenAI / Web / OAuth
+DOMAIN,auth.openai.com
+DOMAIN,platform.openai.com
 
-# Cerebras
-DOMAIN-SUFFIX,cerebras.ai
+# Microsoft Copilot / Web / Bing
+DOMAIN,r.bing.com
 
-# 支付 / 计费 / 风控依赖
-DOMAIN-SUFFIX,chargebee.com
-DOMAIN-SUFFIX,checkout.com
+# 其他海外 AI / 通用依赖
+DOMAIN,self.events.data.microsoft.com
 
-# AI 编码 / Agent 工具
-DOMAIN-SUFFIX,clawhub.ai
+# Anthropic / Web / Console
+DOMAIN,servd-anthropic-website.b-cdn.net
 
-# Databricks AI
-DOMAIN-SUFFIX,cloud.databricks.com
+# Anthropic / API
+DOMAIN,api.anthropic.com
 
-# Windsurf / Codeium
-DOMAIN-SUFFIX,codeium.com
+# Anthropic / Web / Console
+DOMAIN,console.anthropic.com
 
-# Cohere
-DOMAIN-SUFFIX,cohere.ai
-DOMAIN-SUFFIX,cohere.com
+# Anthropic / Docs / Support
+DOMAIN,docs.anthropic.com
 
-# Context7
-DOMAIN-SUFFIX,context7.com
+# Anthropic / Web / Console
+DOMAIN,platform.claude.com
 
-# Continue
-DOMAIN-SUFFIX,continue.dev
+# Anthropic / Docs / Support
+DOMAIN,support.anthropic.com
 
-# Cursor
-DOMAIN-SUFFIX,cursor.com
-DOMAIN-SUFFIX,cursor.sh
+# Microsoft Copilot / Web / Bing
+DOMAIN,services.bingapis.com
 
-# Deepgram
-DOMAIN-SUFFIX,deepgram.com
+# Cloudflare AI / Challenge / CDN
+DOMAIN,static.cloudflareinsights.com
 
-# DeepInfra
-DOMAIN-SUFFIX,deepinfra.com
+# Microsoft Copilot / Web / Bing
+DOMAIN,sydney.bing.com
+DOMAIN,www.bing.com
 
-# Descript
-DOMAIN-SUFFIX,descript.com
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,ai.azure.com
+DOMAIN-SUFFIX,ai.com
 
-# 支付 / 计费 / 风控依赖
-DOMAIN-SUFFIX,devtools-paypal.com
+# AI21 Labs
+DOMAIN-SUFFIX,ai21.com
+DOMAIN-SUFFIX,ai21labs.com
 
-# AI 编码 / Agent 工具
-DOMAIN-SUFFIX,diabrowser.ai
-DOMAIN-SUFFIX,diabrowser.com
+# Google Gemini / API
+DOMAIN-SUFFIX,aiplatform.googleapis.com
 
-# Stability AI / DreamStudio
-DOMAIN-SUFFIX,dreamstudio.ai
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,anfutong.cn
+DOMAIN-SUFFIX,anfutong.com
+DOMAIN-SUFFIX,anfutong.com.cn
 
-# ElevenLabs
-DOMAIN-SUFFIX,elevenlabs.com
-DOMAIN-SUFFIX,elevenlabs.io
+# Anthropic / Web / Console
+DOMAIN-SUFFIX,anthropic.com
 
-# AI 相关遥测 / Feature Gate
-DOMAIN-SUFFIX,events.statsigapi.net
+# Meta AI
+DOMAIN-SUFFIX,ai.meta.com
 
-# Udio
-DOMAIN-SUFFIX,firebase.studio
+# Microsoft Copilot / Web / Bing
+DOMAIN-SUFFIX,api.microsoftapp.net
 
-# Exa
-DOMAIN-SUFFIX,exa.ai
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,api.nvidia.com
+DOMAIN-SUFFIX,apis.google.com
+DOMAIN-SUFFIX,artbreeder.com
 
-# 支付 / 计费 / 风控依赖
-DOMAIN-SUFFIX,experiencebillmelater.com
-DOMAIN-SUFFIX,fastspring.com
+# 身份认证 / 信任服务
+DOMAIN-SUFFIX,auth0.com
 
-# AI 相关站点支持 / 统计
-DOMAIN-SUFFIX,fathom.video
+# Google Gemini / Web / Studio
+DOMAIN-SUFFIX,bard.google.com
 
-# AI 相关遥测 / Feature Gate
-DOMAIN-SUFFIX,featuregates.org
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,beibao.cn
+DOMAIN-SUFFIX,beibao.com
+DOMAIN-SUFFIX,beibao.com.cn
+DOMAIN-SUFFIX,bill-safe.com
 
-# Firecrawl
-DOMAIN-SUFFIX,firecrawl.dev
+# Microsoft Copilot / Web / Bing
+DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
 
-# 支付 / 计费 / 风控依赖
-DOMAIN-SUFFIX,fundpaypal.com
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,bml.info
 
-# Databricks AI
-DOMAIN-SUFFIX,gcp.databricks.com
+# Bolt
+DOMAIN-SUFFIX,bolt.new
 
-# 支付 / 计费 / 风控依赖
-DOMAIN-SUFFIX,getbraintree.com
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,briantreepayments.net
+DOMAIN-SUFFIX,briantreepayments.tv
 
-# GitHub Copilot / Web
-DOMAIN-SUFFIX,githubcopilot.com
+# Google Gemini / Web / Studio
+DOMAIN-SUFFIX,business.gemini.google
 
-# Grammarly
-DOMAIN-SUFFIX,grammarly.com
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,buyfast-paysmart.net
+DOMAIN-SUFFIX,cash2.com
 
-# JetBrains Grazie
-DOMAIN-SUFFIX,grazie.ai
-DOMAIN-SUFFIX,grazie.aws.intellij.net
+# Cloudflare AI / Challenge / CDN
+DOMAIN-SUFFIX,challenges.cloudflare.com
 
-# AI 编码 / Agent 工具
-DOMAIN-SUFFIX,grep.app
+# Character.AI
+DOMAIN-SUFFIX,character.ai
 
-# Groq / Web
-DOMAIN-SUFFIX,groq.com
+# OpenAI / Web / OAuth
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
 
-# AI 相关站点支持 / 统计
-DOMAIN-SUFFIX,intercom.io
-DOMAIN-SUFFIX,intercomcdn.com
-
-# Jasper
-DOMAIN-SUFFIX,jasper.ai
-
-# Kaiber
-DOMAIN-SUFFIX,kaiber.ai
-
-# AI 编码 / Agent 工具
-DOMAIN-SUFFIX,kilo.ai
-DOMAIN-SUFFIX,kilocode.ai
-DOMAIN-SUFFIX,kilocode.app
-
-# Lambda
-DOMAIN-SUFFIX,lambda.ai
-
-# LangChain / LangSmith
-DOMAIN-SUFFIX,langchain.com
-DOMAIN-SUFFIX,langsmith.com
-
-# AI 相关遥测 / Feature Gate
-DOMAIN-SUFFIX,launchdarkly.com
-
-# 支付 / 计费 / 风控依赖
-DOMAIN-SUFFIX,lemonsqueezy.com
-
-# Leonardo AI
-DOMAIN-SUFFIX,leonardo.ai
-
-# 支付 / 计费 / 风控依赖
-DOMAIN-SUFFIX,login-paypal.com
-DOMAIN-SUFFIX,login-paypal.info
-
-# AI Builder / App 生成
-DOMAIN-SUFFIX,lovable.dev
-DOMAIN-SUFFIX,lovart.ai
-
-# Luma AI
-DOMAIN-SUFFIX,luma.ai
-
-# Manus
-DOMAIN-SUFFIX,manus.ai
-DOMAIN-SUFFIX,manus.im
-DOMAIN-SUFFIX,manuscdn.com
-
-# Modal
-DOMAIN-SUFFIX,modal.com
-
-# Milvus
-DOMAIN-SUFFIX,milvus.io
-
-# IBM watsonx
-DOMAIN-SUFFIX,ml.cloud.ibm.com
-
-# AI 编码 / Agent 工具
-DOMAIN-SUFFIX,models.dev
-
-# AI 语音 / 配音
-DOMAIN-SUFFIX,murf.ai
-
-# OpenAI / API
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
-
-# AI 编码 / Agent 工具
-DOMAIN-SUFFIX,openclaw.ai
-DOMAIN-SUFFIX,opencode.ai
-DOMAIN-SUFFIX,opencode.com
-DOMAIN-SUFFIX,opencode.dev
-DOMAIN-SUFFIX,opncd.ai
-
-# Otter
-DOMAIN-SUFFIX,otter.ai
-
-# 支付 / 计费 / 风控依赖
-DOMAIN-SUFFIX,paddle.com
-DOMAIN-SUFFIX,paydiant.com
-DOMAIN-SUFFIX,paylike.com
-DOMAIN-SUFFIX,paypal-activate.com
-DOMAIN-SUFFIX,paypal-activate.info
-DOMAIN-SUFFIX,paypal-activate.org
-DOMAIN-SUFFIX,paypal-apac.com
-DOMAIN-SUFFIX,paypal-apps.com
-DOMAIN-SUFFIX,paypal-biz.com
-DOMAIN-SUFFIX,paypal-brandcentral.com
-DOMAIN-SUFFIX,paypal-business.com
-DOMAIN-SUFFIX,paypal-business.net
-DOMAIN-SUFFIX,paypal-business.org
-DOMAIN-SUFFIX,paypal-cardcash.com
-DOMAIN-SUFFIX,paypal-cash.com
-DOMAIN-SUFFIX,paypal-center.com
-DOMAIN-SUFFIX,paypal-center.info
-DOMAIN-SUFFIX,paypal-center.net
-DOMAIN-SUFFIX,paypal-center.org
-DOMAIN-SUFFIX,paypal-communication.com
-DOMAIN-SUFFIX,paypal-communications.com
-DOMAIN-SUFFIX,paypal-communications.net
-DOMAIN-SUFFIX,paypal-community.com
-DOMAIN-SUFFIX,paypal-community.net
-DOMAIN-SUFFIX,paypal-comunidad.com
-DOMAIN-SUFFIX,paypal-corp.com
-DOMAIN-SUFFIX,paypal-database.com
-DOMAIN-SUFFIX,paypal-database.us
-DOMAIN-SUFFIX,paypal-donations.com
-DOMAIN-SUFFIX,paypal-dynamic.com
-DOMAIN-SUFFIX,paypal-engineering.com
-DOMAIN-SUFFIX,paypal-europe.com
-DOMAIN-SUFFIX,paypal-excelinvoicing.com
-DOMAIN-SUFFIX,paypal-exchanges.com
-DOMAIN-SUFFIX,paypal-forward.com
-DOMAIN-SUFFIX,paypal-galactic.com
-DOMAIN-SUFFIX,paypal-gift.com
-DOMAIN-SUFFIX,paypal-gifts.com
-DOMAIN-SUFFIX,paypal-gpplus.com
-DOMAIN-SUFFIX,paypal-here.com
-DOMAIN-SUFFIX,paypal-hrsystem.com
-DOMAIN-SUFFIX,paypal-innovationlab.com
-DOMAIN-SUFFIX,paypal-integration.com
-DOMAIN-SUFFIX,paypal-japan.com
-DOMAIN-SUFFIX,paypal-knowledge.com
-DOMAIN-SUFFIX,paypal-labs.com
-DOMAIN-SUFFIX,paypal-latam.com
-DOMAIN-SUFFIX,paypal-learning.com
-DOMAIN-SUFFIX,paypal-login.com
-DOMAIN-SUFFIX,paypal-login.info
-DOMAIN-SUFFIX,paypal-login.org
-DOMAIN-SUFFIX,paypal-login.us
-DOMAIN-SUFFIX,paypal-luxury.com
-DOMAIN-SUFFIX,paypal-mainstreet.net
-DOMAIN-SUFFIX,paypal-marketing.com
-DOMAIN-SUFFIX,paypal-media.com
-DOMAIN-SUFFIX,paypal-merchantloyalty.com
-DOMAIN-SUFFIX,paypal-mktg.com
-DOMAIN-SUFFIX,paypal-mobilemoney.com
-DOMAIN-SUFFIX,paypal-network.org
-DOMAIN-SUFFIX,paypal-notice.com
-DOMAIN-SUFFIX,paypal-notify.com
-DOMAIN-SUFFIX,paypal-online.info
-DOMAIN-SUFFIX,paypal-online.net
-DOMAIN-SUFFIX,paypal-online.org
-DOMAIN-SUFFIX,paypal-optimizer.com
-DOMAIN-SUFFIX,paypal-pages.com
-DOMAIN-SUFFIX,paypal-photocard.com
-DOMAIN-SUFFIX,paypal-plaza.com
-DOMAIN-SUFFIX,paypal-portal.com
-DOMAIN-SUFFIX,paypal-prepagata.com
-DOMAIN-SUFFIX,paypal-prepagata.net
-DOMAIN-SUFFIX,paypal-prepaid.com
-DOMAIN-SUFFIX,paypal-profile.com
-DOMAIN-SUFFIX,paypal-proserv.com
-DOMAIN-SUFFIX,paypal-qrshopping.org
-DOMAIN-SUFFIX,paypal-recargacelular.com
-DOMAIN-SUFFIX,paypal-redeem.com
-DOMAIN-SUFFIX,paypal-referral.com
-DOMAIN-SUFFIX,paypal-retail.com
-DOMAIN-SUFFIX,paypal-scoop.com
-DOMAIN-SUFFIX,paypal-search.com
-DOMAIN-SUFFIX,paypal-secure.net
-DOMAIN-SUFFIX,paypal-secure.org
-DOMAIN-SUFFIX,paypal-security.net
-DOMAIN-SUFFIX,paypal-security.org
-DOMAIN-SUFFIX,paypal-service.org
-DOMAIN-SUFFIX,paypal-signin.com
-DOMAIN-SUFFIX,paypal-signin.us
-DOMAIN-SUFFIX,paypal-special.com
-DOMAIN-SUFFIX,paypal-specialoffers.com
-DOMAIN-SUFFIX,paypal-sptam.com
-DOMAIN-SUFFIX,paypal-status.com
-DOMAIN-SUFFIX,paypal-support.com
-DOMAIN-SUFFIX,paypal-survey.com
-DOMAIN-SUFFIX,paypal-survey.org
-DOMAIN-SUFFIX,paypal-team.com
-DOMAIN-SUFFIX,paypal-viewpoints.net
-DOMAIN-SUFFIX,paypal.ca
-DOMAIN-SUFFIX,paypal.com
-DOMAIN-SUFFIX,paypal.com.cn
-DOMAIN-SUFFIX,paypal.com.hk
-DOMAIN-SUFFIX,paypal.com.sg
-DOMAIN-SUFFIX,paypal.hk
-DOMAIN-SUFFIX,paypal.info
-DOMAIN-SUFFIX,paypal.jp
-DOMAIN-SUFFIX,paypal.me
-DOMAIN-SUFFIX,paypal.net.cn
-DOMAIN-SUFFIX,paypal.org.cn
-DOMAIN-SUFFIX,paypal.so
-DOMAIN-SUFFIX,paypal.us
-DOMAIN-SUFFIX,paypalbeacon.com
-DOMAIN-SUFFIX,paypalbenefits.com
-DOMAIN-SUFFIX,paypalbrasil.com
-DOMAIN-SUFFIX,paypalcommunity.cn
-DOMAIN-SUFFIX,paypalcommunity.com
-DOMAIN-SUFFIX,paypalcommunity.net
-DOMAIN-SUFFIX,paypalcommunity.org
-DOMAIN-SUFFIX,paypalcorp.com
-DOMAIN-SUFFIX,paypalcredit.com
-DOMAIN-SUFFIX,paypalcreditcard.com
-DOMAIN-SUFFIX,paypalgivingfund.org
-DOMAIN-SUFFIX,paypalhere.cn
-DOMAIN-SUFFIX,paypalhere.com
-DOMAIN-SUFFIX,paypalhere.com.cn
-DOMAIN-SUFFIX,paypalhere.info
-DOMAIN-SUFFIX,paypalhere.net
-DOMAIN-SUFFIX,paypalhere.org
-DOMAIN-SUFFIX,paypalhere.tv
-DOMAIN-SUFFIX,paypali.net
-DOMAIN-SUFFIX,paypalinc.com
-DOMAIN-SUFFIX,paypalindia.com
-DOMAIN-SUFFIX,paypalinsuranceservices.org
-DOMAIN-SUFFIX,paypall.com
-DOMAIN-SUFFIX,paypallabs.com
-DOMAIN-SUFFIX,paypalme.com
-DOMAIN-SUFFIX,paypalnet.net
-DOMAIN-SUFFIX,paypalnet.org
-DOMAIN-SUFFIX,paypalnetwork.info
-DOMAIN-SUFFIX,paypalnetwork.net
-DOMAIN-SUFFIX,paypalnetwork.org
-DOMAIN-SUFFIX,paypalobjects.com
-DOMAIN-SUFFIX,paypalonline.net
-DOMAIN-SUFFIX,paypalonline.org
-DOMAIN-SUFFIX,paypalprepagata.com
-DOMAIN-SUFFIX,paypalprepagata.net
-DOMAIN-SUFFIX,paypalservice.com
-DOMAIN-SUFFIX,paypalshopping.com
-DOMAIN-SUFFIX,paypalshopping.net
-DOMAIN-SUFFIX,paypalsurvey.com
-DOMAIN-SUFFIX,paypalx.com
-DOMAIN-SUFFIX,paypaly.com
-
-# Poe
-DOMAIN-SUFFIX,poe.com
-
-# 支付 / 计费 / 风控依赖
-DOMAIN-SUFFIX,ppaypal.com
-
-# Poe
-DOMAIN-SUFFIX,qpoe.com
-
-# Recraft
-DOMAIN-SUFFIX,recraft.ai
-
-# AI 语音 / 配音
-DOMAIN-SUFFIX,respeecher.com
-
-# Runway
-DOMAIN-SUFFIX,runwayml.com
-
-# 支付 / 计费 / 风控依赖
-DOMAIN-SUFFIX,s-xoom.com
-DOMAIN-SUFFIX,secure-paypal.info
-DOMAIN-SUFFIX,securepaypal.info
-
-# AI 编码 / Agent 工具
-DOMAIN-SUFFIX,sourcegraph.com
-
-# 支付 / 计费 / 风控依赖
-DOMAIN-SUFFIX,sslpaypal.org
-
-# Stability AI / DreamStudio
-DOMAIN-SUFFIX,stability.ai
-
-# 支付 / 计费 / 风控依赖
-DOMAIN-SUFFIX,stripe.com
-
-# AI 编码 / Agent 工具
-DOMAIN-SUFFIX,supermaven.com
-
-# Synthesia
-DOMAIN-SUFFIX,synthesia.io
-
-# 支付 / 计费 / 风控依赖
-DOMAIN-SUFFIX,swiftbank.info
-DOMAIN-SUFFIX,swiftbank.us
-DOMAIN-SUFFIX,swiftcapital.com
-DOMAIN-SUFFIX,swiftfinancial.com
-DOMAIN-SUFFIX,swiftfinancial.info
-DOMAIN-SUFFIX,swiftfinancial.net
-
-# Tabnine
-DOMAIN-SUFFIX,tabnine.com
-
-# Tavily
-DOMAIN-SUFFIX,tavily.com
-
-# 支付 / 计费 / 风控依赖
-DOMAIN-SUFFIX,thepaypalshop.com
-
-# Together AI
-DOMAIN-SUFFIX,together.ai
-
-# Udio
-DOMAIN-SUFFIX,udio.com
-
-# AI Builder / App 生成
-DOMAIN-SUFFIX,v0.app
-DOMAIN-SUFFIX,v0.dev
-
-# 支付 / 计费 / 风控依赖
-DOMAIN-SUFFIX,venmo-touch.com
-DOMAIN-SUFFIX,venmo.com
-DOMAIN-SUFFIX,venmo.info
-DOMAIN-SUFFIX,venmo.net
-DOMAIN-SUFFIX,venmo.org
-DOMAIN-SUFFIX,venmo.s3.amazonaws.com
-
-# AI 语音 / 配音
-DOMAIN-SUFFIX,voice.ai
-
-# IBM watsonx
-DOMAIN-SUFFIX,watsonx.ai
-
-# Weaviate
-DOMAIN-SUFFIX,weaviate.io
-
-# 支付 / 计费 / 风控依赖
-DOMAIN-SUFFIX,webmoneyinfo.com
-
-# Windsurf / Codeium
-DOMAIN-SUFFIX,windsurf-telemetry.codeium.com
-DOMAIN-SUFFIX,windsurf.ai
-
-# 支付 / 计费 / 风控依赖
-DOMAIN-SUFFIX,wiremoneytoirelandwithxoomeasierandcheaper.com
-DOMAIN-SUFFIX,www-paypal.info
-DOMAIN-SUFFIX,www-paypal.us
-DOMAIN-SUFFIX,wwwxoom.com
-DOMAIN-SUFFIX,xoom-experience.com
-DOMAIN-SUFFIX,xoom.com
-DOMAIN-SUFFIX,xoom.io
-DOMAIN-SUFFIX,xoom.net.cn
-DOMAIN-SUFFIX,xoom.us
-DOMAIN-SUFFIX,xoomcom.com
-USER-AGENT,PayPal*
-
-# MiniMax / Web
-DOMAIN-SUFFIX,minimax.io
-
-# MiniMax / API
-DOMAIN-SUFFIX,api.minimax.io
-
-# MiniMax / Web
-DOMAIN-SUFFIX,minimaxi.com
-
-# MiniMax / API
-DOMAIN-SUFFIX,platform.minimaxi.com
-
-# MiniMax / Web
-DOMAIN-SUFFIX,hailuoai.com
+# Civitai
+DOMAIN-SUFFIX,civitai.com
+
+# Anthropic / Web / Console
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,claude.com
+DOMAIN-SUFFIX,claudeusercontent.com
+
+# OpenAI / Web / OAuth
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,clipdrop.co
+DOMAIN-SUFFIX,copilot.cloud.microsoft
+
+# Microsoft Copilot / Web / Bing
+DOMAIN-SUFFIX,copilot.microsoft.com
+
+# Copy.ai
+DOMAIN-SUFFIX,copy.ai
+
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,deepmind.com
+
+# Google Gemini / Web / Studio
+DOMAIN-SUFFIX,deepmind.google
+
+# Microsoft Copilot / Web / Bing
+DOMAIN-SUFFIX,edgeservices.bing.com
+
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,fal.ai
+DOMAIN-SUFFIX,filipino-music.net
+
+# AI 会议 / 记录
+DOMAIN-SUFFIX,fireflies.ai
+
+# Fireworks AI
+DOMAIN-SUFFIX,fireworks.ai
+
+# Google Gemini / Web / Studio
+DOMAIN-SUFFIX,gemini.google
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,generativeai.google
+
+# HeyGen
+DOMAIN-SUFFIX,heygen.com
+
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,gmoney.org
+DOMAIN-SUFFIX,google.com
+
+# xAI / Grok
+DOMAIN-SUFFIX,grok.com
+
+# Hugging Face
+DOMAIN-SUFFIX,hf.co
+DOMAIN-SUFFIX,hf.space
+
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,host.livekit.cloud
+
+# Hugging Face
+DOMAIN-SUFFIX,huggingface.co
+
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,i-o-u.info
+
+# 身份认证 / 信任服务
+DOMAIN-SUFFIX,id.me
+DOMAIN-SUFFIX,identrust.com
+
+# Ideogram
+DOMAIN-SUFFIX,ideogram.ai
+
+# Inflection
+DOMAIN-SUFFIX,inflection.ai
+
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,krakenjs.com
+
+# Krea
+DOMAIN-SUFFIX,krea.ai
+
+# xAI / Grok
+DOMAIN-SUFFIX,llamaindex.ai
+
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,loanbuilder.com
+
+# Google Gemini / Web / Studio
+DOMAIN-SUFFIX,makersuite.google.com
+
+# AI 会议 / 记录
+DOMAIN-SUFFIX,meetgeek.ai
+
+# Meta AI
+DOMAIN-SUFFIX,meta.ai
+
+# Midjourney
+DOMAIN-SUFFIX,midjourney.com
+
+# Mistral
+DOMAIN-SUFFIX,mistral.ai
+
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,mywaytopay.info
+DOMAIN-SUFFIX,mywaytopay.net
+
+# Notion AI
+DOMAIN-SUFFIX,notion.ai
+
+# OpenAI / Web / OAuth
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,observeit.net
+DOMAIN-SUFFIX,openai.azure.com
+
+# OpenAI / Web / OAuth
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openai.fm
+
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,openaicom.imgix.net
+
+# OpenRouter
+DOMAIN-SUFFIX,openrouter.ai
+
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,pa9pal.com
+DOMAIN-SUFFIX,paaypal.com
+DOMAIN-SUFFIX,paily.net
+DOMAIN-SUFFIX,paily.org
+DOMAIN-SUFFIX,paipal.com
+DOMAIN-SUFFIX,pavpal.com
+DOMAIN-SUFFIX,paypa1.com
+DOMAIN-SUFFIX,paypa1.org
+DOMAIN-SUFFIX,paypaal.com
+DOMAIN-SUFFIX,payppal.com
+DOMAIN-SUFFIX,payypal.com
+DOMAIN-SUFFIX,pdncommunity.com
+
+# Perplexity
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,perplexity.com
+
+# Phind
+DOMAIN-SUFFIX,phind.com
+
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,pi.ai
+DOMAIN-SUFFIX,pika.art
+DOMAIN-SUFFIX,pinecone.io
+DOMAIN-SUFFIX,play.ht
+DOMAIN-SUFFIX,playgroundai.com
+DOMAIN-SUFFIX,pp-soc.com
+
+# xAI / Grok
+DOMAIN-SUFFIX,pplx.ai
+
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,pppds.com
+DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
+DOMAIN-SUFFIX,pypl.com
+DOMAIN-SUFFIX,pypl.info
+DOMAIN-SUFFIX,pypl.net
+DOMAIN-SUFFIX,pypl.tv
+DOMAIN-SUFFIX,qdrant.tech
+DOMAIN-SUFFIX,quillbot.com
+DOMAIN-SUFFIX,reka.ai
+DOMAIN-SUFFIX,remove.bg
+
+# Replicate
+DOMAIN-SUFFIX,replicate.com
+
+# Replit AI
+DOMAIN-SUFFIX,replit.com
+
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,runpod.io
+DOMAIN-SUFFIX,rytr.me
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,sheerid.com
+DOMAIN-SUFFIX,simility.com
+DOMAIN-SUFFIX,snowflakecomputing.com
+
+# OpenAI / Web / OAuth
+DOMAIN-SUFFIX,sora.com
+
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,sudowrite.com
+
+# Suno
+DOMAIN-SUFFIX,suno.ai
+
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,theshoppingexpresslane.net
+
+# AI 会议 / 记录
+DOMAIN-SUFFIX,tldv.io
+
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,trychroma.com
+DOMAIN-SUFFIX,turn.livekit.cloud
+DOMAIN-SUFFIX,wordtune.com
+DOMAIN-SUFFIX,writesonic.com
+
+# xAI / Grok
+DOMAIN-SUFFIX,x.ai
+
+# 其他海外 AI / 通用依赖
+DOMAIN-SUFFIX,xn--bnq297cix3a.cn
+DOMAIN-SUFFIX,you.com
+DOMAIN-SUFFIX,zed.dev
+IP-CIDR,24.199.123.28/32,no-resolve
+IP-CIDR,64.23.132.171/32,no-resolve
